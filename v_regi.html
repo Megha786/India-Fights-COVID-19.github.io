@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>VOLUNTEER REGISTRATION PAGE</title>
+    <link rel="stylesheet" href="cregi.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script
+    src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+    integrity="sha256-pasqAKBDmFT4eHoN2ndd6lN370kFiGUFyTiUHWhU7k8="
+    crossorigin="anonymous"></script>
+    <script>
+    $(function() {
+    $(".toggle").on("click", function() {
+        if ($(".item").hasClass("active")) {
+            $(".item").removeClass("active");
+        } else {
+            $(".item").addClass("active");
+        }
+    });
+});
+    </script>
+</head>
+<body>
+    <nav>
+         <ul class="menu">
+          <li class="logo"><a href="#">India Fights<br><img src="images/image5a.jpg" width="120" hight="50"></a></li>
+          <li class="item"><a href="file:///C:/Users/Hp/OneDrive/Documents/sublime_folder/phome.html">Home</a></li>
+          <li class="item"><a href="https://news.google.com/covid19/map?hl=en-IN&mid=%2Fm%2F03rk0&gl=IN&ceid=IN%3Aen">Statistics</a></li>
+          <li class="item"><a href="https://selfregistration.cowin.gov.in/">Vaccination</a></li>
+           
+          <li class="item button"><a href="file:///C:/Users/Hp/OneDrive/Documents/sublime_folder/login.html">Log In</a></li>
+          <li class="item button secondary"><a href="file:///C:/Users/Hp/OneDrive/Documents/sublime_folder/signup.html">Sign Up</a></li>
+          <li class="toggle"><span class="bars"></span></li>
+        </ul>
+    </nav>
+    <br>
+    <br>
+ <p><font color="blue"><h2>India Fights COVID-19</h2><br>Thank you for expressing interest in doing good! Do you want volunteer your time or resources? That's awesome! Please complete the form below so we can put your efforts to use in the most helpful ways, and become part of the frontline in the fight against Corona Virus.</font>
+    <br> Help frontline workers and people who affected by COVID pendemic of your region to make them happy.<br><font color="#ff66ff">"You make living by what you get. You make a life by what you give."</font> </p>
+    <div class="wrapper">
+        <h2>VOLUNTEER REGISTRATION FORM</h2>
+        <div class="form-conteniar">
+            <form>
+                <div class="input-name">
+                    <i class="fa fa-user lock"></i>
+                    <input type="text" placeholder="First Name" required class="name">
+                    <span class="last">
+                    <i class="fa fa-user lock"></i>
+                    <input type="text" placeholder="Last Name" required class="name">                    
+                    </span>
+                </div>
+                    
+                <div class="input-name">
+                        <i class="fa fa-phone lock"></i>
+                        <input type="text" placeholder="Contact Number" required class="text-name">               
+                </div>
+                <div class="input-name">
+                        <i class="fa fa-envelope email"></i>
+                        <input type="email" placeholder="Email" required class="text-name">                      
+                </div>
+                                           
+                <div class="input-name">
+                    <i class="fa fa-map lock"></i>
+                    <input type="text" placeholder="Permanent Address" required class="text-name">
+                </div>
+
+               
+
+                <div class="input-name">
+                    
+                    <input type="radio" name="radiogroup1" id="abc"class="radio-button">
+                    <label for="abc" class="gender">Male</label>
+                    <input type="radio" name="radiogroup1" id="abcd" class="radio-button">
+                    <label for="abcd" class="gender">Female</label>
+                    <input type="radio" name="radiogroup1" id="abcde" class="radio-button">
+                    <label for="abcde" class="gender">Other</label>
+                </div>
+
+                <div class="input-name">
+                    <select class="region">
+                        <option>Select a State</option>
+                        <option>Andra Pradesh</option>
+                        <option>Chattisgarh</option>
+                        <option>Delhi</option>
+                        <option>Karnataka</option>
+                        <option>Kerala</option>
+                        <option>Maharastra</option>
+                        <option>Rajasthan</option>
+                        <option>Tamil Nadu</option>
+                        <option>Uttar Pradesh</option>
+                        <option>West Bengal</option>
+                      </select>
+                    <div class="arrow"> </div>
+                </div>
+ 
+                <p>How can you help as Volunteer:</p>
+                <div>
+                  <input type="checkbox" id="ag" name="ag">
+                  <label for="ag">Administrator</label>
+                </div>
+                 <div>
+                  <input type="checkbox" id="am" name="am">
+                  <label for="a">Distributer</label>
+                </div>                
+                <div>
+                  <input type="checkbox" id="ah" name="ah">
+                 <label for="ah">Driving</label>
+                </div>
+                 <div>
+                  <input type="checkbox" id="ad" name="ad">
+                 <label for="ad">Financial</label>
+                </div>
+                <div>
+                  <input type="checkbox" id="ac" name="ac">
+                  <label for="ac">Media or Influencer</label>
+                </div>
+                <div>
+                  <input type="checkbox" id="af" name="af">
+                 <label for="af">Medical Practitioner</label>
+                </div>
+                <div>
+                  <input type="checkbox" id="an" name="an">
+                  <label for="an">Medicines</label>
+                </div>
+                <div>
+                  <input type="checkbox" id="ab" name="ab">
+                 <label for="ab">Nursing</label>
+                </div>
+                <div>
+                  <input type="checkbox" id="ae" name="ae">
+                  <label for="ae">Technical</label>
+                </div>
+
+                <div class="input-name">                        
+                        <input type="text" placeholder="Other" >               
+                </div>
+
+                <div class="input-name">
+                        <!--i class="fa fa-phone lock"></i-->
+                        <input type="text" placeholder="Do you have any thing else to add?" class="text-name">               
+                </div>           
+                </div>
+
+                 <p><h3>Terms And Conditions:</h3><br>Inorder to protect the health of all our Volunteers and people around us we have established COVID-19 protocols that all volunteer must follow. By selecting I AGREE WITH TERMS AND CONDITIONS, you acknowledge that you will adhere to the following COVID-19 safety requirements.</p>
+                   <ol>
+                    <li>I work in my own region and I and my team follow all qurantain guidlines assigned by government.</li>
+                     <li>Not to participate in the Project if I have had a body temperature of 100.4 degrees or higher during the previous 14 days or have suffered any symptoms of the COVID-19 virus, the flu, or the common cold.</li>
+                     <li>Not participate if any resident of my home has symptoms of COVID-19, tested positive, or has been in contact with someone that has tested positive for COVID-19.</li> 
+                    
+                     <li>That I am participating in the Project at my own risk</li>
+                    </ol>
+
+                 <div class="input-name">
+                        <input type="checkbox" id="cb1" name="cb1">
+                      <label for="cb1" required class="chack">I AGREE WITH TERMS AND CONDITIONS</label><br>    
+                 </div>
+               
+               <a  href="file:///C:/Users/Hp/OneDrive/Documents/healthcare%20app%20frontend/feedback.html" class="btn">Register</a>
+       
+            </form>
+        </div>
+    </div>
+</body>
+</html>
